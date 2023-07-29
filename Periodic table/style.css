@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+body{
+    background-image: url(bg.jpeg);
+}
+
+
+td{
+    width: 5vw;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+.maindiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Noborder{
+    border:none
+    
+}
+.Heading{
+    background-color:burlywood; 
+    padding:10px;
+    font-size: 5vh;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+table td:hover{
+    transform:scale(2.0);
+    box-shadow:red
+}
+.Element_01{
+    background-color: #17a79d;
+}
+
+.Element_02{
+    background-color: #f2c416;
+}
+
+.Element_03{
+    background-color: #f0af7a;
+}
+
+.Lathinide_and_actinide
+{
+    background-color:#ea4c3c;
+}
+.Noble_gas{
+    background-color: #965ba5;
+}
+.Transition_metals{
+    background-color: #cce6e6
+}
+.Halogen{
+    background-color: #0097c2;
+}
+.Other_Metals{
+    background-color:#f4ffdc;
+}
+.Non_metals{
+    background-color: #d91b5c;
+}
+.Metaloid{
+    background-color: #33ffbd;
+}
